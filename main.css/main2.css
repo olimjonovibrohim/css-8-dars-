@@ -1,0 +1,106 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    width: 90px;
+    height: 38px;
+    /* outline: 1px solid; */
+    list-style: none;
+    position: relative;
+    background-image: url(../rasmlar/06.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin: 200px 50px;
+    float: left;
+}
+.menu-item:nth-child(1){
+    background-position: -110px -225px;
+    margin-bottom: 20px;
+}
+.menu-item:nth-child(2){
+    background-position: -240px -225px;
+    margin-bottom: 20px;
+}
+.menu-item:nth-child(3){
+    background-position: -360px -225px;
+    margin-bottom: 20px;
+}
+.menu-item:nth-child(4){
+    background-position: -480px -225px;
+    margin-bottom: 20px;
+}
+.menu-item:nth-child(5){
+    background-position: -600px -225px;
+    margin-bottom: 20px;
+}
+.menu-link{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 120px;
+    height: 38px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+.menu-item:nth-child(1) .menu-link{
+    color: gray;
+    margin-left: -70px;
+    margin-top: -40px;
+}
+.menu-item:nth-child(2) .menu-link{
+    color: gray;
+    margin-left: -70px;
+    margin-top: -40px;
+}
+.menu-item:nth-child(3) .menu-link{
+    color: gray;
+    margin-left: -65px;
+    margin-top: -40px;
+}
+.menu-item:nth-child(4) .menu-link{
+    color: gray;
+    margin-left: -60px;
+    margin-top: -40px;
+}
+.menu-item:nth-child(5) .menu-link{
+    color: gray;
+    margin-left: -50px;
+    margin-top: -40px;
+}
+.menu a{
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu-item:nth-child(1) :active{
+    background-position: -240px -225px;
+    width: 90px;
+    height: 40px;
+}
+.menu-item:nth-child(2) :active{
+    background-position: -110px -225px;
+    width: 90px;
+    height: 40px;
+}
+.menu-item:nth-child(3) :hover{
+    width: 90px;
+    height: 40px;
+    background-color: green;
+}
+.menu-item:nth-child(4) :hover{
+    background-position: -110px -225px;
+    width: 90px;
+    height: 40px;
+}
+.menu-item:nth-child(5) :hover{
+    width: 90px;
+    height: 40px;
+    background-color: gray;
+}
